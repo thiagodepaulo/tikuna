@@ -1,0 +1,478 @@
+ 
+Instituto de Ciências Exatas 
+Departamento de Ciência da Computação 
+ 
+ 
+ 
+ 
+ 
+ 
+Números Naturais na Base Binária 
+Uma apostila na língua Ticuna 
+ 
+ 
+ 
+ 
+Adimir Carlos Tauana, Aldevalson Pinheiro Pereira, Eversen 
+Binder Flores Tomé, Wanderson Gabriel Torres da Silva, Thiago 
+Calegário Ferreira Gomes, Pedro Garcia Freitas e Edison Ishikawa 
+ 
+ 
+ 
+ 
+Brasília-DF 
+2023 
+ 
+Agradecimentos 
+ 
+À Universidade de Brasília, que por meio do Programa 
+Licenciaturas em Ação 2023 permitiu a consecução do Projeto de 
+Extensão “Educação em Computação para Comunidades 
+Indígenas da Etnia Ticuna”, do qual esta apostila é um dos 
+produtos. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Prefácio 
+ 
+Dados digitais são armazenados e transmitidos usando a notação 
+binária, ou seja, uma sequência de zeros e uns. A compreensão de 
+como o computador trabalha com números na base binária auxilia 
+na formação do pensamento computacional. A representação de 
+números na base binária é o primeiro passo para materializar de 
+forma concreta como computadores conseguem por meio de uma 
+representação simples construir conceitos e representações 
+complexas. Para os indígenas, ter exemplos palpáveis, concretos, 
+facilita o seu aprendizado. Esta apostila tem por objetivo explicar 
+na língua Ticuna a representação de números naturais na base 
+binária e como transformar números naturais na base binária para 
+a base decimal. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sumário 
+ 
+1. Representado números na base binária 
+2. Binário para decimal 
+3. Conversão de Binário para Decimal 
+4. Conversão de Binário para Decimal Usando o Método de 
+Notação Posicional 
+5. Conversão de Binário para Decimal Usando o Método de 
+Dobro 
+6. Considerações Finais 
+7. Exercícios 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Representado Números na base binária 
+A menor unidade de informação é o bit. Um bit só pode possuir dois valores. Estes 
+valores podem ser representados de diversas formas. Por exemplo, um cesto pode estar 
+ou aberto ou fechado (Fig. 1).  
+                             
+ 
+Figura 1. O cesto aberto pode representar o valor 1 e o cesto fechado o valor 0. 
+ 
+Podemos combinar vários bits para representar outros valores além de 0 e 1. Por 
+exemplo, se usarmos dois bits, teremos 4 combinações possíveis de cestos. 
+ 
+Binário 
+Decimal 
+ 
+ 
+ 
+00 
+ 
+0 
+ 
+ 
+01 
+ 
+1 
+ 
+ 
+10 
+ 
+2 
+ 
+ 
+ 
+11 
+ 
+3 
+ 
+Em computadores se usa uma combinação de 8 bits chamada byte para representar uma 
+“palavra”. Por exemplo, a Fig. 2 mostra um byte representando o número decimal 15, 
+que equivale ao número binário 00001111. 
+ 
+Valor 
+Representação 
+Física 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Binário 
+0 
+0 
+0 
+0 
+1 
+1 
+1 
+1 
+Decimal 
+15 
+Figura 2. Diversas formas de representar o número decimal 15. 
+Nas próximas seções vamos ver algumas formas de transformar número binários em 
+decimal, com explicações na língua Ticuna. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2. Binário para Decimal 
+Rü Bináriu na Decimauwa nangei rü naca na’ü wüi numeru i sistema numéricu bináriuwa 
+ngemaǖ i wü’iguǖ i norü ngu’utchi i norü sisitemawa i numéricu decimauwa. 
+Wü’i sistema numéricu rü wü’itama ni’i na númerugü naütchicüna’ãǖ wui nacüma 
+metchinü’ǖãcü. 
+• Rü sistema numéricu bináriu rü ü’ü cũputadugüwa rü sistema electronicugüwa 
+na nanaütchicünaãǖca dadugü i ügü’ǖ nhaã i tare i digitugü i nhaãgü i 0 rü 1. 
+• Rü sistema numéricu decimau rü sistema numericu ãũri memaregü’ǖ i üü i 
+guümagü rü Tauchaaãcü nü’ü ta’cuagü’üca ya dueegü 
+Rü binário rü decimauwa nangei rü name’ta naüü i tare i nacümaãcü – rü ngema nacüma 
+natchicaǖ icua’ǖ rü nhumatchi nacüma napopetü’ǖ. Ngiã nü’ǖ ta cuae na nhuãcü bináriu 
+na decimauwa nangei naü nümaǖ i cua’ãtchiruǖ Ito’õtchiraüǖ i bináriu na decimauwa 
+nangei. 
+ 
+Tacü niutchaǖ i Binariu rü Decimau? 
+Rü ito’õtchiraüǖ i binariu i decimauwa rü naü na wü’i numeru naütchicünaã i ãü 
+i sistema Numericu binariugu nawa i norü’tama i natucumü i ngema Sistema Numericu 
+Decimaugü. Wü’i sistema numericu rü aicumaütchi nawei i numerugü. Wü’itchigü 
+sistema numericu nangema wü’itchigü norü’ügü, rü nhumatchi wü’i ügü’arü  
+na ngema wü’i i nguãtchi  
+rü nagu ninguãtchi wü’i sistema numericu rü nagu dawenü’ǖ norü guüma digitugü üü 
+nagu. Por exemplo (Rü nü’ü tchiuãtchi i cua’ãtchiruǖ), rü sistema numericu binariu nü’ü 
+nangema wü’i nagu niuu i 2, tacüca naüü tare digitugü na rü nanawe nheĩrüǖmare 
+numeru. Ngemaãcü’gütama, rü sistema numericu decimau nangema wü’itchigü 
+norü’ügü 10, marü na nhuma ni’i cunaüü 10 digitugü na nanawei wü’i numeru. 
+Rü ito’õtchiraüǖ i numerugü binariu i decimauwa rü ãũri name, erü tünarü ngüee i 
+numeru arü ugüwa  
+Ngema naweine nhemaãcü wü’i i natucumü i 0s rü 1s. Ngiã nü’ǖ ta cuae natchiga itoraüü 
+i nacümagü i towa nangei i binariu na decimauwa rü cua’ãtchiruügü nü’ü idauü. 
+ 
+3. Conversão de Binário para Decimal 
+Bináriu Decimauwa nange’ 
+Rü ito’õtchiraüǖ i binariu i decimauwa rü naü naca na tü’ü narüngüeei na numerugü’ü i 
+uune ya ã’ugüne bináriugü na nhemaãcü ya duuegü meã na tautchaãcü nü’ü 
+tacua’güüca. Rü nhuãcüta na wenaãrü decimauwa nangei i binariu? Nangema nacümagü 
+i tare ito’õtchiraüǖ wü’ine ya numeru i sistema binariu’arü naca i sistema numericu 
+decimau: 
+• Nacüma i natchicaü ünetaü 
+• Wü’igu nu’u  
+ 
+4. Conversão de Binário para Decimal Usando o Método de 
+Notação Posicional 
+Bináriu Decimauwa nange’ üü Nacüma i natchicaü ünetaü 
+Rü Nacüma i natchicaü i ünetaü rü ngema i norü nguutchi i wü’i digitu i wü’ine i 
+numeruwa rü marü inguune ya wü’i ya yaüca nagu ya nguãtchine i norü natchicawa. Rü 
+nama       nhuãcüta ya ito’õtchiraüǖ binariu na decimauwa nangei rü nhaãcüta ya ngei: 
+• 1’arü ũ’: Nangu’gü wü’itchigü digitu nawa tanaügü ngema digitu i 
+ütchiwaãma’üü norü ngugüruü i 2. Nuã, tanaügüta namaã i 2^0 rü tarü ãueegü i 
+expoente 1’wa rü tayangugü ngema ünaügüüwa--towetchacüü’cüwawaãma. 
+• 2’arü ũ’: rü ngugü guüma i ngema norü nguutchi meei naca i wü’itchigü digitu 
+inüdau i nguutchi i wü’iguü i numeru binariu ãü sistema decimaugüwa. 
+Ngiã nü’ü ticua’ãtchiee namaã i nhaã ngüeeruü i cua’ãtchiruügü. 
+ 
+Cua’ãtchiruü: Ti’ato’õtchiraüēē i numeru binariu 101101 i wü’i numeru decimauwa. 
+ 
+Nacüma: nangugü i nhaãma na nü’ü cu’cuaüta na nhuaãcü i binariu na decimauwa 
+cuna’ngei. Rü ngeirüü’mare i numeru binariu, rü digitu i meinetchacüüwaãma’üü rü “Bit 
+irarüwa i uu” (LSB) nhaãcü tanaca rü nhumatchi i digitu i towetchacüüwaãma’üü rü “Bit 
+auri i uu” (MSB). Naca wü’i numeru binariu i ‘n’ iuu i digitu’gü, rü bit irarüwa i uu nü’ü 
+nangema wü’i ya’ i 2^0 naguu rü nhumatchi bit auri i uu nü’ü nangema wü’i ya’ i 2^(n-1) 
+naguu. 
+• 1’arü ũ’: expoentigü naütchimaü i 2 naca i guüma i digitugü na nawa ta naügüü i 
+natchica i meinetchacüüwaãma’üü. Rü expoentigü i nüira’iiine rüena’ta 2^0, 
+tanangugü ngema inaügüü i towetchacüü’cüwawaãma, nhaãgüta ni’i 2^1, 2^2, 
+2^3, 2^4, 2^5, nhaãcütchigütani’i. I cua’ãtchiruü ãü’wa, rü nangema 6 digitugü, 
+ngemaãcü, nawa naügü i digitu i meinetchacüüwaãma’üü, wü’itchigü 
+natchica’arü ya’ i meĩnetchacü’üwa  rü nhumatchi towetchacü’üwa rü 2^0, 2^1, 
+2^2, 2^3, 2^4 e 2^5. 
+ 
+ 
+ 
+ 
+• 2’arü ũ’: Nhuma, nangugü i wü’itchigü i digitu i numeru binariuwa i nawa naügü’ǖ 
+i meĩnetchacü’üwa nama’ã i norügütchigü i norü ya’ nagu niũãtchitchigü’ǖ i norü 
+natchicawatchigü rü nhumatchi nangugü i ngema airüügü. Nü’ǖ nadawenü i 
+ngema natchicüna’ã i nhatügu ü’ü i nügüwa idagü’ǖma’ã i ũũ. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+• 3’arü ũ’: I norü gu’, nangugü i guǖma i ngema airüügü i ngemagü’ǖ naca i guǖma 
+i digitugü i numeru binariuwa, tacü ngemaü i decimau’tucumüwa wü’iguǖ i 
+numeru binariu ãǖ, rüena, 101101 i binariuwa rü ngema inidau i 45 i 
+decimauwa’arü. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5. Conversão de Binário para Decimal Usando o Método de Dobro 
+Binariu i decimauwa nangeetchiĩ i nama’ã naü’ü i üetüruũ’ãcüma’ãcü 
+Nhuãcü i naega tü’ǖ namuũãcü’taã, iũtchigü’ǖ i ünagüetü’ǖ (rüena 2’maã na ngugü’ǖ) rü 
+naü’ü naca i binariu i decimauwa nangeetchiĩ. Nha’ã nacüma ngema nangema i nhaãma 
+natchigawa: 
+• 1’arü ũ’: Nawü ya numeru binariu rü nhumatchi nawa naügü i digitu i 
+towetchacü’üwa’ama’üü. Naünagüetü i nüira’ǖǖ i numeru rü nhumatchi iücutchi 
+i digitu nhuma ngemane. Nhuãcü tana’ügüǖ nawa nhaã digitu i 
+towetchacüüwa’ama’üü rü nhumatchi natauma i to’ i nüiraǖ’ǖ i digitu inaraǖ’ǖ, 
+digitu’arü ünagüetüruũ i nüĩra’ǖǖ rü 0’acü nü’ǖ taca. Rü cua’ãtchiruũ, rü 101101, 
+rü digitu towetchacü’üwaama’üü rü ‘1’ ni’ĩ. Rü numeru’arü ünagüetüruũ ya 
+nüĩraǖne rü 0’ni’ĩ. Rü ngemaãcü, naü’ü (0 x 2) + 1), rü 1 wini’ĩĩ. 
+• 2’arü ũ’: Ngema’ãcümaãcütama na’ü i to’ digitu’wa. Rü Towetchacüüwaãma’üü i 
+norü tare i digitu rü 0’ni’ĩ. Nhuma’nacü, nüĩra’ǖne digitu naüetü rü nhumatchi 
+iücutchi i digitu nhuma ngemanewa. Rü ngemaãcü, naü’ü (1 x 2) + 0, rü 2 wini’ĩĩ. 
+• 3’arü ũ’: Ngema’cümaãcütama na’ü ya guünema ya norü i digitugüwa. Rü ngema 
+norü nguutchi’ĩ ingau i norü guwa’üü rü ngematani’ĩ i decimau’arü nguutchi 
+aicumaãcü’iĩĩ (real). Rü ngemaãcü, i ngema norü nguutchi i numeru binariu’arü 
+ngeetchi 101101 i decimauwa nama’ã na’üü i nacüma i tanetaruũ rü numeru 
+decimau 45’inidau. 
+Nü’ǖ nadawenü i natchicüna’ã i nhatügu’üü na nü’ǖ cudaũca na daunagu’ũ nhuãcü 
+naü’ü:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6. Considerações Finais 
+Esta apostila é uma primeira parte do esforço de se produzir material didático para o 
+ensino de computação na língua Ticuna. Ele será complementado e aperfeiçoado à 
+medida que os alunos indígenas do curso Computação Licenciatura avancem no curso 
+para se tornarem Professores de Computação da Educação Básica. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+7. Exercícios 
+Convencionado que o cesto aberto tem o valor 0 e o cesto fechado o valor 1, escreva o valor em 
+binário e em decimal dos bytes a seguir: 
+ 
+Valor 
+Representaçã
+o Física 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Binário 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Decimal 
+ 
+ 
+ 
+Valor 
+Representação 
+Física 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Binário 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Decimal 
+ 
+ 
+ 
+Valor 
+Representação 
+Física 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Binário 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Decimal 
+ 
+ 
+ 
+Valor 
+Representaçã
+o Física 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Binário 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Decimal 
+ 
+ 
+ 
+Valor 
+Representação 
+Física 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Binário 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Decimal 
+ 
+ 
+ 
+ 
+ 
+ 
